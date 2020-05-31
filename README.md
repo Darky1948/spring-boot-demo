@@ -18,7 +18,7 @@
 * Pas de WAR. Spring boot permet de créer des applications qui s’auto-hébergent et s’exécutent en tant qu’application JAR (embedded tomcat).
 
 
-Il est vrai que les projets actuels avec lesquels nous travaillons nous constatons un écosystème Spring lourd, avec beaucoup de livrairies, trop JEE. Spring boot a su apporter la simplicité d’origine de Spring et sans fichier XML.
+Il est vrai que les projets actuels avec lesquels nous travaillons nous constatons un écosystème Spring lourd, avec beaucoup de librairies, trop JEE. Spring boot a su apporter la simplicité d’origine de Spring et sans fichier XML.
 
 Plus besoin de configuration xml pour les déclarations de beans, plus de web.xml, plus besoin non plus de serveur d’application.
 
