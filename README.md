@@ -1,5 +1,4 @@
 # spring-boot-demo
-Spring boot demo
 
 ## Récupérer le projet
 
