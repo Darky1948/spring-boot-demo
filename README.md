@@ -60,36 +60,36 @@ create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user
 grant all on db_example.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database
 ~~~
 
-```properties
+~~~~properties
 spring.jpa.hibernate.ddl-auto=update
 spring.datasource.driverClassName=com.mysql.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 spring.datasource.url=jdbc:mysql://localhost:3306/hotelbooking?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 spring.datasource.username=hotelbooking
 spring.datasource.password=hotelbooking
-````
+~~~~
 
 Indique sur quel ip et port le serveur tourne
 
-````sql
+~~~~sql
 SELECT SUBSTRING_INDEX(USER(), '@', -1) AS ip,  @@hostname as hostname, @@port as port, DATABASE() as current_database;
-````
+~~~~
 
 Pour connaître le time zone mysql
 
-````sql
+~~~~sql
 select now();
-````
+~~~~
 
 Définir la bdd courant :
 
-````sql
+~~~~sql
 USE database_name;
-````
+~~~~
 
 Voir l'ensemble des tables de la bdd :
 
-````sql
+~~~~sql
 show tables;
-````
+~~~~
 
