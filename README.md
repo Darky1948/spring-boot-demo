@@ -29,17 +29,17 @@ Cette nouvelle configuration sera prise en compte au prochain démarrage de l’
 
 ## @Controller vs @RestController
 
-###@Controller
+### @Controller
 
 Une méthode qui utilise cette annotation va indiquer au framework qu’il faut retouner au client un model et une vue
 
-###@RestController
+### @RestController
 
 @RestController = @Controller + @ResponseBody
 
 @Responbody signifie que l’objet qui sera retourné à partir d’une méthode utilisant cette annotation est le corps de la réponse http représentée soit au format XML ou JSON.
 
-##Comment on implémente la persistence ?
+## Comment on implémente la persistence ?
 
 * Annoter les entités avec :
 	* @Entity
