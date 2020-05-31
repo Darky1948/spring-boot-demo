@@ -1,6 +1,16 @@
 # spring-boot-demo
 Spring boot demo
 
+## Récupérer le projet
+
+* Ouvrir une CMD
+* Se placer dans le répertoire voulu (cd)
+* git clone https://github.com/Darky1948/spring-boot-demo.git
+* intellij ou eclipse -> importer le projet en tant que "Maven Project"
+* Mettre en place un env mysql.
+* modifier l'application.properties en fonction de la conf.
+* Lancer BookingDemoApplication 
+
 
 ## Pourquoi Spring Boot ?
 
